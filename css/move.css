@@ -1,0 +1,232 @@
+/* Custom Stylesheet for Misfit MOVE App*/
+
+
+/**
+ * This file override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By Think B & Vini-C  
+ */
+
+
+/* General */
+
+
+
+body {
+    background-color: #f4f5f6;
+}
+
+@font-face {
+    font-family: 'From Where You Are';
+    src: url('fonts/FromWhereYouAre.ttf');
+}
+
+@font-face {
+    font-family: 'Mikado Regular';
+    src: url('fonts/Mikado Regular.otf');
+}
+
+@font-face {
+    font-family: 'Mikado Bold';
+    src: url('fonts/Mikado Bold.otf');
+}
+
+
+/* Top Bar */
+
+nav {
+    height: 80px;
+    background-color: #00a5c1;
+}
+
+nav .button-collapse {
+    width: 20%;
+}
+
+.profile {
+    float: left;
+    width: 100%;
+}
+
+.profile_pic {
+    margin-top: 10%;
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #6451aa;
+}
+
+.status {
+    float: right;
+    display: inline;
+    font-family: 'From Where You Are';
+    font-weight: 100
+}
+
+.fromfont {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.number_nav {
+    color: yellow;
+    padding: 3px
+}
+
+.days_internal {
+    margin-left:20px;
+}
+
+
+.status-settings {
+    background-image:url(assets/pattern-blue.png);
+    height:25%;
+}
+
+.profile_pic_big {
+     margin-top: 10%;
+    height:80px;
+    border-radius: 50%;
+    border: 4px solid #6451aa;
+    margin-left:10%;
+}
+
+.status_internal {
+    float: left;
+    margin-left:20%;
+    display: inline;
+    font-family: 'From Where You Are';
+    font-weight: 100;
+        margin-top:-5%;
+}
+
+.user_name{
+        float: right;
+    margin-top: 20%;
+    margin-right: 25%;
+    font-family: 'From Where You Are';
+}
+
+.side-nav li {float:left}
+
+.desc-level{
+    font-family: 'From Where You Are';
+    color:#dadada;
+    float:right;
+    margin-right: 5%;
+}
+
+.pad-level{
+    margin-top:-10px;
+}
+
+.progress {
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); /* IE 9 */
+    -webkit-transform:rotate(-90deg);
+    margin-left: -35%;
+    height:35px;
+    border-radius: 20px;
+    background-color:#dadada;
+}
+
+.progress .determinate{
+        background-color:#00a5c1;
+    border-radius:30px;
+}
+
+/* Menu */
+
+.menu_toolbar {
+    position: absolute;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #5e4c95;
+    width: 100%;
+}
+
+.toolbar_text {
+    font-family: 'Mikado Bold';
+    color: #fff;
+    text-align: center;
+    margin: 0px
+}
+
+.icon_toolbar {
+    width: 50%;
+    margin-top: 5px;
+}
+
+.divisor {
+    border-right: 2px #513f88 solid;
+}
+
+.ant-pad.row {
+    margin-bottom: 10px;
+}
+
+.content_app {
+    background-color: #fff;
+    height: 460px;
+    margin: 20px;
+    border-radius: 5%;
+    -webkit-box-shadow: 7px 13px 14px -4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 7px 13px 14px -4px rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 13px 14px -4px rgba(0, 0, 0, 0.1);
+}
+
+.title_challenge {
+    margin-top: -35px;
+    border-bottom: #dadada 2px solid;
+}
+
+h2 {
+    font-family: 'From Where You Are';
+    font-size: 1.54rem;
+    color: #00a5c1;
+}
+
+.data-single {
+    font-family: "From Where You Are";
+    font-size: 12px;
+    color: #5e4c95;
+}
+
+.highlight-data {
+    font-size: 16px;
+    color: #00a5c1;
+}
+
+.icon_category {
+    margin-left: -10%;
+    width: 15%;
+}
+
+.mini-icon {
+    width: 30%;
+    margin-right: 5px;
+}
+
+.divisor2 {
+    border-right: 1px solid #dadada;
+}
+
+.gif_animation_center {
+    width: 60%;
+    position: absolute;
+    margin-left: -275px;
+    margin-top: 60px;
+}
+
+.btn-move {
+    margin-top: -12px;
+}
+
+img.icon_change {
+    width: 20%;
+}
+
+.button-change {
+    display: inline;
+    font-family: "Mikado Regular";
+    font-size: 16px;
+}
