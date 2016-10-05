@@ -24,7 +24,7 @@
         <div class="nav-wrapper container">
             <ul class="status">
                 <li class="nivel fromfont animated pulse"><span class="number_nav">0</span>Nível</li>
-                <li class="pd fromfont animated pulse"><span class="number_nav">0</span>PDS</li>
+                <li class="pd fromfont animated pulse"><span class="number_nav">0</span>pt</li>
             </ul>
             <ul class="right hide-on-med-and-down">
                 <!--<li><a href="#">Navbar Link</a></li> -->
@@ -32,20 +32,31 @@
             <ul id="nav-mobile" class="side-nav">
                 <div class="status-settings">
                     <div class="profile_big "><img class="profile_pic_big" src="images/profile.jpg" />
-                        <h5 class="user_name">Bruna</h5>
+                        <h5 class="user_name">Nome</h5>
                         <ul class="status_internal">
-                            <li class="pd_internal animated pulse"><span class="number_nav">0</span>pd   </li>
+                            <li class="pd_internal animated pulse"><span class="number_nav">0</span>pt   </li>
                             <li class="days_internal animated pulse"><span class="number_nav">0</span>dias de treino</li>
                         </ul>
                     </div>
-                    
-                    
                 </div>
-                <p class="desc-level">0 pd até<br><span class="pad-level"> o próximo </span></p>
+                <!--<p class="desc-level">0 pd até<br><span class="pad-level"> o próximo </span></p> -->
+                
+                <ul class="data-status">
+                    <li class="status-titles">5 - Mestre</li>
+                    <li class="status-titles">4 - Medalista</li>
+                    <li class="status-titles">3 - Pequeno Atleta</li>
+                    <li class="status-titles  active-status">2 - Ativo</li>
+                    <li class="status-titles ">1 - Novato</li>
+                    <li class="status-titles">0 - Oh Preguiça!</li>
+                    <li class="status-titles">-1 - Dorminhoco</li>
+                </ul>
                 
                  <div class="progress">
                       <div class="determinate" style="width: 50%"></div>
                   </div>
+                
+                <a href="" class="btn_area">Minha área</a>
+                <a href="" class="btn_sair">sair</a>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse animated fadeinLeft">
                 <div class="profile "><img class="profile_pic" src="images/profile.jpg" /></div>
@@ -70,7 +81,7 @@
                 </div>
                 <div class="col center s4 ">
                     <div class="pds_monitor single">
-                        <p class="data-single"><span class="highlight-data">0</span> de 0 pd</p>
+                        <p class="data-single"><span class="highlight-data">0</span> de 0 pt</p>
                     </div>
                 </div>
                 <!-- Final dos indicadores -->
@@ -118,7 +129,7 @@
     <script src="plugins/circle_progressbar/circle-progress.js"></script>
     <script>
         $('#circle').circleProgress({
-            value: 0.75
+            value: 0.30
             , size: 250
             , fill: {
                 gradient: ["yellow", "#eecf01"]
