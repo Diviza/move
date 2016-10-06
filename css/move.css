@@ -5,7 +5,7 @@
  * This file override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By Think B & Vini-C  
+ * Made By Think B & Vini-C
  */
 
 
@@ -19,19 +19,39 @@ body {
 
 @font-face {
     font-family: 'From Where You Are';
-    src: url('fonts/FromWhereYouAre.ttf');
+    src: url('fonts/fromwhereyouare-webfont.woff2') format('woff2'),
+         url('fonts/fromwhereyouare-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
     font-family: 'Mikado Regular';
-    src: url('fonts/Mikado Regular.otf');
+    src: url('fonts/mikado_regular-webfont.woff2') format('woff2'),
+         url('fonts/mikado_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Mikado Bold';
-    src: url('fonts/Mikado Bold.otf');
-}
+     font-family: 'Mikado Medium';
+     src: url('fonts/mikado_medium-webfont.woff2') format('woff2'),
+          url('fonts/mikado_medium-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
 
+ }
+
+ @font-face {
+    font-family: 'Mikado Bold';
+    src: url('fonts/mikado_bold-webfont.woff2') format('woff2'),
+         url('fonts/mikado_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Top Bar */
 
@@ -142,7 +162,7 @@ nav .button-collapse {
     display:block;
     margin-left:30%;
     margin-top:18%;
-    
+
 }
 
 .active-status{
@@ -171,13 +191,13 @@ a.btn_area {
 a.btn_sair {
     background-color: #999;
     border-radius: 20px;
-    
+
     text-align: center;
     color: #fff;
     font-family:"Mikado Regular";
     font-size:20px;
     margin-top:-5%;
-    
+
     margin-left: 40%;
     margin-right: 10%;
 
